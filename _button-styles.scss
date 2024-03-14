@@ -1,0 +1,10 @@
+@mixin button-styles ($bgcolor: #f0f0f0, $tcolor:  #333){
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    background-color: $bgcolor;
+    columns: $tcolor;
+}
+
+.primary-button{
+    @include button-styles($bgcolor:#007bff, $tcolor: #fff);
+}

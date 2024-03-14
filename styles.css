@@ -1,3 +1,11 @@
+.primary-button {
+  border: 1px solid #ccc;
+  padding: 10px 20px;
+  background-color: #007bff;
+  -moz-columns: #fff;
+       columns: #fff;
+}
+
 h1 {
   color: red;
   background-color: red;
